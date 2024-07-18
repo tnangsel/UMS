@@ -1,0 +1,47 @@
+{"properties": [
+  {
+    "name": "security.jwt.secret-key",
+    "type": "java.lang.String",
+    "description": "A description for 'security.jwt.secret-key'"
+  },
+  {
+    "name": "security.refresh-token.expiration",
+    "type": "java.lang.String",
+    "description": "A description for 'security.refresh-token.expiration'"
+  },
+  {
+    "name": "security.jwt.expiration",
+    "type": "java.lang.String",
+    "description": "A description for 'security.jwt.expiration'"
+  },
+  {
+    "name": "twilio.sms-number",
+    "type": "java.lang.String",
+    "description": "A description for 'twilio.sms-number'"
+  },
+  {
+    "name": "twilio.auth-token",
+    "type": "java.lang.String",
+    "description": "A description for 'twilio.auth-token'"
+  },
+  {
+    "name": "twilio.account-SID",
+    "type": "java.lang.String",
+    "description": "A description for 'twilio.account-SID'"
+  },
+  {
+    "name": "upload.allowed-extensions",
+    "type": "java.lang.String",
+    "description": "A description for 'upload.allowed-extensions'"
+  },
+  {
+    "name": "upload.directory",
+    "type": "java.lang.String",
+    "description": "A description for 'upload.directory'"
+  },
+  {
+    "name": "security.jwt.refresh-token.expiration",
+    "type": "java.lang.String",
+    "description": "A description for 'security.jwt.refresh-token.expiration'"
+  }
+]}

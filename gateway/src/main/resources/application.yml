@@ -1,0 +1,11 @@
+spring:
+  config:
+    import: optional:configserver:http://localhost:8888
+  application:
+    name: gateway
+
+application:
+  security:
+    jwt:
+      secret-key: h49AY3pldfOLSvMM3R3/ZJfNJYGJx0pY/yMd2RE4SUqf5q5JQ1mfTHTy0ENApRrO
+      

@@ -1,0 +1,20 @@
+server:
+  port: 8761
+
+eureka:
+  server:
+    eviction-interval-timer-in-ms: 60000  # Adjust this value as needed (default is 60,000 ms)
+    renewalThresholdUpdateIntervalMs: 10000  # Adjust this value as needed (default is 5,000 ms)
+    response-cache-update-interval-ms: 30000  # Adjust this value as needed (default is 30,000 ms)
+    useReadOnlyResponseCache: false  # Set to false to disable read-only response cache
+
+  instance:
+    lease-renewal-interval-in-seconds: 60  # Adjust this value as needed (default is 30 seconds)
+    lease-expiration-duration-in-seconds: 120 # Adjust this value as needed (default is 90 seconds)
+    hostname: localhost
+  client:
+    register-with-eureka: false
+    fetch-registry: false
+    service-url:
+      defaultZone: http://${eureka.instance.hostname}:${server.port}/eureka/
+  
